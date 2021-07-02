@@ -17,6 +17,10 @@ public class MainApp {
 		{
 			System.out.println("Incorrect");
 		}
+		
+		String sample = "     TestString    ";
+		String ans = sample.trim();
+		System.out.println("After Trim, Sample String = " + ans);
 	}
 
 }
